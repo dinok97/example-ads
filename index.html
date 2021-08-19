@@ -29,7 +29,7 @@
         </a-asset-item>
       </a-assets>
 
-      <!-- <a-marker
+      <a-marker
         preset="hiro"
         raycaster="objects: .clickable"
         emitevents="true"
@@ -43,25 +43,7 @@
           scale="0.05 0.05 0.05"
           class="clickable"
           gesture-handler
-        > -->
-
-        <a-marker 
-          id="markerA" 
-          raycaster="objects: .clickable"
-          type='barcode'
-          emitevents="true"
-          cursor="fuse: false; rayOrigin: mouse;" 
-          value='6'>
-        
-        <a-entity
-            id="bowser-model"
-            gltf-model="#bowser"
-            position="0 0 0"
-            scale="0.05 0.05 0.05"
-            class="clickable"
-            gesture-handler
-          >
-
+        >
         </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
